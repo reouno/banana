@@ -24,6 +24,19 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+    - aeson
+    - extensible
+    - lens
+    - persistent
+    - persistent-postgresql
+    - persistent-template
+    - servant
+    - servant-docs
+    - servant-server
+    - text
+    - time
+    - wai
 
 executables:
   banana-exe:
