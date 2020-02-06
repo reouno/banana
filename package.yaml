@@ -48,6 +48,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - banana
+    - warp
 
 tests:
   banana-test:

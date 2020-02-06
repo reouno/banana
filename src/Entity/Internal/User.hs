@@ -8,13 +8,8 @@ import           Control.Lens
 import           Data.Extensible
 import           Data.Text
 
-import           Entity.Internal.Entity
-    ( Entity (..)
-    , EntityValue (..)
-    )
-
 type UserId = Int
 
-type User = Record '[ "name" >: Text, "email" >: Email]
+type Email = Text
 
-instance EntityValue User
+type User = Record '[ "name" >: Text, "email" >: Email]
