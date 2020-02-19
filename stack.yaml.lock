@@ -5,6 +5,20 @@
 
 packages:
 - completed:
+    size: 3777
+    url: https://github.com/reouno/persistent-util/archive/0.3.2.14.14.tar.gz
+    cabal-file:
+      size: 1024
+      sha256: 05c723cffafcd30ec0b7ae58c490427deb8156582a7b292e03ab63a854572dd8
+    name: persistent-util
+    version: 0.3.2.14.14
+    sha256: 42b26a3241c6df1481850c7ac824e4a90fca616be90f8216546ca53e825c695c
+    pantry-tree:
+      size: 632
+      sha256: 218f310c3314861bd1b52951a985a1e1e855d5f3d658dff5c998592bbee734d7
+  original:
+    url: https://github.com/reouno/persistent-util/archive/0.3.2.14.14.tar.gz
+- completed:
     hackage: extensible-0.7@sha256:12dfa21548aba9f3b02a2f708a935240bae43383945f41e4e9054f37e421035b,2859
     pantry-tree:
       size: 2149

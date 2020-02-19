@@ -13,3 +13,5 @@ type UserId = Int
 type Email = Text
 
 type User = Record '[ "name" >: Text, "email" >: Email]
+
+type UserRecord = (UserId, User)

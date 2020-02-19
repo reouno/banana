@@ -31,11 +31,13 @@ library:
     - persistent
     - persistent-postgresql
     - persistent-template
+    - persistent-util
     - servant
     - servant-docs
     - servant-server
     - text
     - time
+    - unliftio-core
     - wai
 
 executables:
